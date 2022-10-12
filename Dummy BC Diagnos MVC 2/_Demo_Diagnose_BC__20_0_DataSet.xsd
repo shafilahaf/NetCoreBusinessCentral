@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="_Demo_Diagnose_BC__20_0_DataSet" targetNamespace="http://tempuri.org/_Demo_Diagnose_BC__20_0_DataSet.xsd" xmlns:mstns="http://tempuri.org/_Demo_Diagnose_BC__20_0_DataSet.xsd" xmlns="http://tempuri.org/_Demo_Diagnose_BC__20_0_DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=.;Initial Catalog=&quot;Demo Diagnose BC (20-0)&quot;;Integrated Security=True;Encrypt=True;TrustServerCertificate=True" IsAppSettingsProperty="false" Modifier="Assembly" Name="Demo_Diagnose_BC__20_0_ConnectionString (RDLC Design)" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CRONUS Australia Pty_ Ltd_$Sales Header$437dbf0e-84ff-417a-965d-ed2bb9650972TableAdapter" GeneratorDataComponentClassName="CRONUS_Australia_Pty__Ltd__Sales_Header_437dbf0e_84ff_417a_965d_ed2bb9650972TableAdapter" Name="CRONUS Australia Pty_ Ltd_$Sales Header$437dbf0e-84ff-417a-965d-ed2bb9650972" UserDataComponentName="CRONUS Australia Pty_ Ltd_$Sales Header$437dbf0e-84ff-417a-965d-ed2bb9650972TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Demo_Diagnose_BC__20_0_ConnectionString (RDLC Design)" DbObjectName="[Demo Diagnose BC (20-0)].dbo.[CRONUS Australia Pty_ Ltd_$Sales Header$437dbf0e-84ff-417a-965d-ed2bb9650972]" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT No_, [Sell-to Customer No_], [Order Date] FROM dbo.[CRONUS Australia Pty_ Ltd_$Sales Header$437dbf0e-84ff-417a-965d-ed2bb9650972]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="No_" DataSetColumn="No_" />
+              <Mapping SourceColumn="Sell-to Customer No_" DataSetColumn="Sell_to_Customer_No_" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CRONUS Australia Pty_ Ltd_$Sales Line$437dbf0e-84ff-417a-965d-ed2bb9650972TableAdapter" GeneratorDataComponentClassName="CRONUS_Australia_Pty__Ltd__Sales_Line_437dbf0e_84ff_417a_965d_ed2bb9650972TableAdapter" Name="CRONUS Australia Pty_ Ltd_$Sales Line$437dbf0e-84ff-417a-965d-ed2bb9650972" UserDataComponentName="CRONUS Australia Pty_ Ltd_$Sales Line$437dbf0e-84ff-417a-965d-ed2bb9650972TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Demo_Diagnose_BC__20_0_ConnectionString (RDLC Design)" DbObjectName="[Demo Diagnose BC (20-0)].dbo.[CRONUS Australia Pty_ Ltd_$Sales Line$437dbf0e-84ff-417a-965d-ed2bb9650972]" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Document No_], [Line No_], [Sell-to Customer No_], Type, No_, Description, [Unit of Measure], Quantity, [Unit Price] FROM dbo.[CRONUS Australia Pty_ Ltd_$Sales Line$437dbf0e-84ff-417a-965d-ed2bb9650972]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Document No_" DataSetColumn="Document_No_" />
+              <Mapping SourceColumn="Line No_" DataSetColumn="Line_No_" />
+              <Mapping SourceColumn="Sell-to Customer No_" DataSetColumn="Sell_to_Customer_No_" />
+              <Mapping SourceColumn="Type" DataSetColumn="Type" />
+              <Mapping SourceColumn="No_" DataSetColumn="NoLine_" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="Unit of Measure" DataSetColumn="Unit_of_Measure" />
+              <Mapping SourceColumn="Quantity" DataSetColumn="Quantity" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CRONUS Australia Pty_ Ltd_$ItemPic$47466c52-add1-4a8c-a9cc-daa9c554098dTableAdapter" GeneratorDataComponentClassName="CRONUS_Australia_Pty__Ltd__ItemPic_47466c52_add1_4a8c_a9cc_daa9c554098dTableAdapter" Name="CRONUS Australia Pty_ Ltd_$ItemPic$47466c52-add1-4a8c-a9cc-daa9c554098d" UserDataComponentName="CRONUS Australia Pty_ Ltd_$ItemPic$47466c52-add1-4a8c-a9cc-daa9c554098dTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Demo_Diagnose_BC__20_0_ConnectionString (RDLC Design)" DbObjectName="[Demo Diagnose BC (20-0)].dbo.[CRONUS Australia Pty_ Ltd_$ItemPic$47466c52-add1-4a8c-a9cc-daa9c554098d]" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [Demo Diagnose BC (20-0)].[dbo].[CRONUS Australia Pty_ Ltd_$ItemPic$47466c52-add1-4a8c-a9cc-daa9c554098d] WHERE (([No] = @Original_No) AND ([Description] = @Original_Description))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_No" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="No" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Description" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Description" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT [No], [Description], [Picture] FROM [Demo Diagnose BC (20-0)].[dbo].[CRONUS Australia Pty_ Ltd_$ItemPic$47466c52-add1-4a8c-a9cc-daa9c554098d]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [Demo Diagnose BC (20-0)].[dbo].[CRONUS Australia Pty_ Ltd_$ItemPic$47466c52-add1-4a8c-a9cc-daa9c554098d] SET [No] = @No, [Description] = @Description, [Picture] = @Picture WHERE (([No] = @Original_No) AND ([Description] = @Original_Description));
+SELECT No, Description, Picture FROM [CRONUS Australia Pty_ Ltd_$ItemPic$47466c52-add1-4a8c-a9cc-daa9c554098d] WHERE (No = @No)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@No" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="No" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Description" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Description" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Binary" Direction="Input" ParameterName="@Picture" Precision="0" ProviderType="Image" Scale="0" Size="0" SourceColumn="Picture" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_No" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="No" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Description" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Description" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="No" DataSetColumn="No" />
+              <Mapping SourceColumn="Description" DataSetColumn="DescriptionImg" />
+              <Mapping SourceColumn="Picture" DataSetColumn="Picture" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="_Demo_Diagnose_BC__20_0_DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="_Demo_Diagnose_BC__20_0_DataSet" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="_Demo_Diagnose_BC__20_0_DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CRONUS_x0020_Australia_x0020_Pty__x0020_Ltd__x0024_Sales_x0020_Header_x0024_437dbf0e-84ff-417a-965d-ed2bb9650972" msprop:Generator_RowEvHandlerName="_CRONUS_Australia_Pty__Ltd__Sales_Header_437dbf0e_84ff_417a_965d_ed2bb9650972RowChangeEventHandler" msprop:Generator_RowDeletedName="_CRONUS_Australia_Pty__Ltd__Sales_Header_437dbf0e_84ff_417a_965d_ed2bb9650972RowDeleted" msprop:Generator_RowDeletingName="_CRONUS_Australia_Pty__Ltd__Sales_Header_437dbf0e_84ff_417a_965d_ed2bb9650972RowDeleting" msprop:Generator_RowEvArgName="_CRONUS_Australia_Pty__Ltd__Sales_Header_437dbf0e_84ff_417a_965d_ed2bb9650972RowChangeEvent" msprop:Generator_TablePropName="_CRONUS_Australia_Pty__Ltd__Sales_Header_437dbf0e_84ff_417a_965d_ed2bb9650972" msprop:Generator_RowChangedName="_CRONUS_Australia_Pty__Ltd__Sales_Header_437dbf0e_84ff_417a_965d_ed2bb9650972RowChanged" msprop:Generator_UserTableName="CRONUS Australia Pty_ Ltd_$Sales Header$437dbf0e-84ff-417a-965d-ed2bb9650972" msprop:Generator_RowChangingName="_CRONUS_Australia_Pty__Ltd__Sales_Header_437dbf0e_84ff_417a_965d_ed2bb9650972RowChanging" msprop:Generator_RowClassName="_CRONUS_Australia_Pty__Ltd__Sales_Header_437dbf0e_84ff_417a_965d_ed2bb9650972Row" msprop:Generator_TableClassName="_CRONUS_Australia_Pty__Ltd__Sales_Header_437dbf0e_84ff_417a_965d_ed2bb9650972DataTable" msprop:Generator_TableVarName="_tableCRONUS_Australia_Pty__Ltd__Sales_Header_437dbf0e_84ff_417a_965d_ed2bb9650972">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="No_" msprop:Generator_ColumnPropNameInTable="No_Column" msprop:Generator_ColumnPropNameInRow="No_" msprop:Generator_UserColumnName="No_" msprop:Generator_ColumnVarNameInTable="columnNo_">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sell_to_Customer_No_" msprop:Generator_ColumnPropNameInTable="Sell_to_Customer_No_Column" msprop:Generator_ColumnPropNameInRow="Sell_to_Customer_No_" msprop:Generator_UserColumnName="Sell_to_Customer_No_" msprop:Generator_ColumnVarNameInTable="columnSell_to_Customer_No_">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Order_Date" msprop:Generator_ColumnPropNameInTable="Order_DateColumn" msprop:Generator_ColumnPropNameInRow="Order_Date" msprop:Generator_UserColumnName="Order_Date" msprop:Generator_ColumnVarNameInTable="columnOrder_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Sell_to_Customer_Name_" msprop:Generator_ColumnPropNameInTable="Sell_to_Customer_Name_Column" msprop:Generator_ColumnPropNameInRow="Sell_to_Customer_Name_" msprop:Generator_UserColumnName="Sell_to_Customer_Name_" msprop:Generator_ColumnVarNameInTable="columnSell_to_Customer_Name_" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CRONUS_x0020_Australia_x0020_Pty__x0020_Ltd__x0024_Sales_x0020_Line_x0024_437dbf0e-84ff-417a-965d-ed2bb9650972" msprop:Generator_RowEvHandlerName="_CRONUS_Australia_Pty__Ltd__Sales_Line_437dbf0e_84ff_417a_965d_ed2bb9650972RowChangeEventHandler" msprop:Generator_RowDeletedName="_CRONUS_Australia_Pty__Ltd__Sales_Line_437dbf0e_84ff_417a_965d_ed2bb9650972RowDeleted" msprop:Generator_RowDeletingName="_CRONUS_Australia_Pty__Ltd__Sales_Line_437dbf0e_84ff_417a_965d_ed2bb9650972RowDeleting" msprop:Generator_RowEvArgName="_CRONUS_Australia_Pty__Ltd__Sales_Line_437dbf0e_84ff_417a_965d_ed2bb9650972RowChangeEvent" msprop:Generator_TablePropName="_CRONUS_Australia_Pty__Ltd__Sales_Line_437dbf0e_84ff_417a_965d_ed2bb9650972" msprop:Generator_RowChangedName="_CRONUS_Australia_Pty__Ltd__Sales_Line_437dbf0e_84ff_417a_965d_ed2bb9650972RowChanged" msprop:Generator_UserTableName="CRONUS Australia Pty_ Ltd_$Sales Line$437dbf0e-84ff-417a-965d-ed2bb9650972" msprop:Generator_RowChangingName="_CRONUS_Australia_Pty__Ltd__Sales_Line_437dbf0e_84ff_417a_965d_ed2bb9650972RowChanging" msprop:Generator_RowClassName="_CRONUS_Australia_Pty__Ltd__Sales_Line_437dbf0e_84ff_417a_965d_ed2bb9650972Row" msprop:Generator_TableClassName="_CRONUS_Australia_Pty__Ltd__Sales_Line_437dbf0e_84ff_417a_965d_ed2bb9650972DataTable" msprop:Generator_TableVarName="_tableCRONUS_Australia_Pty__Ltd__Sales_Line_437dbf0e_84ff_417a_965d_ed2bb9650972">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Document_No_" msprop:Generator_ColumnPropNameInTable="Document_No_Column" msprop:Generator_ColumnPropNameInRow="Document_No_" msprop:Generator_UserColumnName="Document_No_" msprop:Generator_ColumnVarNameInTable="columnDocument_No_">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Line_No_" msprop:Generator_ColumnPropNameInTable="Line_No_Column" msprop:Generator_ColumnPropNameInRow="Line_No_" msprop:Generator_UserColumnName="Line_No_" msprop:Generator_ColumnVarNameInTable="columnLine_No_" type="xs:int" />
+              <xs:element name="Sell_to_Customer_No_" msprop:Generator_ColumnPropNameInTable="Sell_to_Customer_No_Column" msprop:Generator_ColumnPropNameInRow="Sell_to_Customer_No_" msprop:Generator_UserColumnName="Sell_to_Customer_No_" msprop:Generator_ColumnVarNameInTable="columnSell_to_Customer_No_">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnVarNameInTable="columnType" type="xs:int" />
+              <xs:element name="NoLine_" msprop:Generator_ColumnPropNameInTable="NoLine_Column" msprop:Generator_ColumnPropNameInRow="NoLine_" msprop:Generator_UserColumnName="NoLine_" msprop:Generator_ColumnVarNameInTable="columnNoLine_">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unit_of_Measure" msprop:Generator_ColumnPropNameInTable="Unit_of_MeasureColumn" msprop:Generator_ColumnPropNameInRow="Unit_of_Measure" msprop:Generator_UserColumnName="Unit_of_Measure" msprop:Generator_ColumnVarNameInTable="columnUnit_of_Measure">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_UserColumnName="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" type="xs:decimal" />
+              <xs:element name="UnitPrice" msprop:Generator_ColumnPropNameInTable="UnitPriceColumn" msprop:Generator_ColumnPropNameInRow="UnitPrice" msprop:Generator_UserColumnName="UnitPrice" msprop:Generator_ColumnVarNameInTable="columnUnitPrice" type="xs:decimal" />
+              <xs:element name="Unit_of_Measure_Code" msprop:Generator_ColumnPropNameInTable="Unit_of_Measure_CodeColumn" msprop:Generator_ColumnPropNameInRow="Unit_of_Measure_Code" msprop:Generator_UserColumnName="Unit_of_Measure_Code" msprop:Generator_ColumnVarNameInTable="columnUnit_of_Measure_Code" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CRONUS_x0020_Australia_x0020_Pty__x0020_Ltd__x0024_ItemPic_x0024_47466c52-add1-4a8c-a9cc-daa9c554098d" msprop:Generator_RowEvHandlerName="_CRONUS_Australia_Pty__Ltd__ItemPic_47466c52_add1_4a8c_a9cc_daa9c554098dRowChangeEventHandler" msprop:Generator_RowDeletedName="_CRONUS_Australia_Pty__Ltd__ItemPic_47466c52_add1_4a8c_a9cc_daa9c554098dRowDeleted" msprop:Generator_RowDeletingName="_CRONUS_Australia_Pty__Ltd__ItemPic_47466c52_add1_4a8c_a9cc_daa9c554098dRowDeleting" msprop:Generator_RowEvArgName="_CRONUS_Australia_Pty__Ltd__ItemPic_47466c52_add1_4a8c_a9cc_daa9c554098dRowChangeEvent" msprop:Generator_TablePropName="_CRONUS_Australia_Pty__Ltd__ItemPic_47466c52_add1_4a8c_a9cc_daa9c554098d" msprop:Generator_RowChangedName="_CRONUS_Australia_Pty__Ltd__ItemPic_47466c52_add1_4a8c_a9cc_daa9c554098dRowChanged" msprop:Generator_UserTableName="CRONUS Australia Pty_ Ltd_$ItemPic$47466c52-add1-4a8c-a9cc-daa9c554098d" msprop:Generator_RowChangingName="_CRONUS_Australia_Pty__Ltd__ItemPic_47466c52_add1_4a8c_a9cc_daa9c554098dRowChanging" msprop:Generator_RowClassName="_CRONUS_Australia_Pty__Ltd__ItemPic_47466c52_add1_4a8c_a9cc_daa9c554098dRow" msprop:Generator_TableClassName="_CRONUS_Australia_Pty__Ltd__ItemPic_47466c52_add1_4a8c_a9cc_daa9c554098dDataTable" msprop:Generator_TableVarName="_tableCRONUS_Australia_Pty__Ltd__ItemPic_47466c52_add1_4a8c_a9cc_daa9c554098d">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_UserColumnName="No" msprop:Generator_ColumnVarNameInTable="columnNo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescriptionImg" msdata:Caption="Description" msprop:Generator_ColumnPropNameInTable="DescriptionImgColumn" msprop:Generator_ColumnPropNameInRow="DescriptionImg" msprop:Generator_UserColumnName="DescriptionImg" msprop:Generator_ColumnVarNameInTable="columnDescriptionImg">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Picture" msprop:Generator_ColumnPropNameInTable="PictureColumn" msprop:Generator_ColumnPropNameInRow="Picture" msprop:Generator_UserColumnName="Picture" msprop:Generator_ColumnVarNameInTable="columnPicture" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CRONUS_x0020_Australia_x0020_Pty__x0020_Ltd__x0024_ItemPic_x0024_47466c52-add1-4a8c-a9cc-daa9c554098d" />
+      <xs:field xpath="mstns:No" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

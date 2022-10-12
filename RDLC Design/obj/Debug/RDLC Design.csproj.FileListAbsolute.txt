@@ -1,0 +1,59 @@
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\RDLC Design.dll.config
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\RDLC Design.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\RDLC Design.pdb
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\csc.exe
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\csc.exe.config
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\csc.rsp
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\csi.exe
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\csi.exe.config
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\csi.rsp
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.AppContext.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Collections.Immutable.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Console.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Globalization.Calendars.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.IO.Compression.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.IO.FileSystem.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Net.Http.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Net.Sockets.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Reflection.Metadata.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.ValueTuple.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Xml.XPath.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\vbc.exe
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\vbc.exe.config
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\vbc.rsp
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\VBCSCompiler.exe
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\roslyn\VBCSCompiler.exe.config
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\obj\Debug\RDLC Design.csproj.AssemblyReference.cache
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\obj\Debug\RDLC Design.csproj.CoreCompileInputs.cache
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\obj\Debug\RDLC Design.csproj.CopyComplete
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\obj\Debug\RDLC Design.dll
+C:\Trusta\Dummy BC Diagnos MVC 2\RDLC Design\obj\Debug\RDLC Design.pdb

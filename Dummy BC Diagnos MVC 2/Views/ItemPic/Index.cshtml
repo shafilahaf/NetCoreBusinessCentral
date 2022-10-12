@@ -1,0 +1,131 @@
+﻿@model IEnumerable<Dummy_BC_Diagnos_MVC_2.Models.CronusAustraliaPtyLtdItemPic47466c52Add14a8cA9ccDaa9c554098d>
+
+@{
+    ViewData["Title"] = "Index";
+    var controllerName = this.ViewContext.RouteData.Values["controller"].ToString();
+    ViewData["Menu"] = controllerName;
+}
+
+@section Styles{ 
+
+    <link rel="stylesheet" href="~/admin/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table id="example1" class="table table-bordered table-striped">
+  <thead>
+  <tr>
+    <th>
+          @Html.DisplayNameFor(model => model.No)
+      </th>
+      <th>
+          @Html.DisplayNameFor(model => model.Description)
+      </th>
+      <th></th>
+  </tr>
+  </thead>
+  <tbody>
+      @foreach (var item in Model) {
+              <tr>
+                  <td>
+                      @Html.DisplayFor(modelItem => item.No)
+                  </td>
+                  <td>
+                      @Html.DisplayFor(modelItem => item.Description)
+                  </td>
+                  <td>
+                      <a asp-action="Edit" asp-route-id="@item.No">Edit</a> |
+                      <a asp-action="Details" asp-route-id="@item.No">Details</a> |
+                      <a asp-action="Delete" asp-route-id="@item.No">Delete</a>
+                  </td>
+              </tr>
+      }
+  </tbody>
+<tfoot>
+    <tr>
+      <th>
+          @Html.DisplayNameFor(model => model.No)
+      </th>
+      <th>
+          @Html.DisplayNameFor(model => model.Description)
+      </th>
+      <th></th>
+    </tr>
+  </tfoot>
+</table>
+
+@section scripts {
+
+    <!-- jQuery 3 -->
+    @*<script src="../../bower_components/jquery/dist/jquery.min.js"></script>*@
+    @*<script src="~/admin/bower_components/jquery/dist/jquery.min.js"></script>*@
+    <!-- Bootstrap 3.3.7 -->
+    @*<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>*@
+    @*<script src="~/admin/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>*@
+    <!-- DataTables -->
+    <script src="~/admin/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="~/admin/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <!-- SlimScroll -->
+    @*<script src="~/admin/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>*@
+    <!-- FastClick -->
+    @*<script src="~/admin/bower_components/fastclick/lib/fastclick.js"></script>*@
+    <!-- AdminLTE App -->
+    @*<script src="../../dist/js/adminlte.min.js"></script>*@
+    @*<script src="~/admin/dist/js/adminlte.min.js"></script>*@
+    <!-- AdminLTE for demo purposes -->
+    @*<script src="~/admin/dist/js/demo.js"></script>*@
+    <!-- page script -->
+    <script>
+      $(function () {
+        $('#example1').DataTable()
+        $('#example2').DataTable({
+          'paging'      : true,
+          'lengthChange': false,
+          'searching'   : false,
+          'ordering'    : true,
+          'info'        : true,
+          'autoWidth'   : false
+        })
+      })
+    </script>
+
+}
+
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.No)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.No)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.No">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.No">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.No">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>*@
+
+

@@ -1,0 +1,64 @@
+﻿@model Dummy_BC_Diagnos_MVC_2.Models.CronusAustraliaPtyLtdItemPic47466c52Add14a8cA9ccDaa9c554098d
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+@*<h4>CronusAustraliaPtyLtdItemPic47466c52Add14a8cA9ccDaa9c554098d</h4>*@
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="No" />
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Picture" class="control-label"></label>
+                <input asp-for="Picture" class="form-control" />
+                <span asp-validation-for="Picture" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemId" class="control-label"></label>
+                <input asp-for="SystemId" class="form-control" />
+                <span asp-validation-for="SystemId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemCreatedAt" class="control-label"></label>
+                <input asp-for="SystemCreatedAt" class="form-control" />
+                <span asp-validation-for="SystemCreatedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemCreatedBy" class="control-label"></label>
+                <input asp-for="SystemCreatedBy" class="form-control" />
+                <span asp-validation-for="SystemCreatedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemModifiedAt" class="control-label"></label>
+                <input asp-for="SystemModifiedAt" class="form-control" />
+                <span asp-validation-for="SystemModifiedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemModifiedBy" class="control-label"></label>
+                <input asp-for="SystemModifiedBy" class="form-control" />
+                <span asp-validation-for="SystemModifiedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
